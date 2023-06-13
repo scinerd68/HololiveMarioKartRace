@@ -7,4 +7,4 @@ players = Blueprint('players', __name__)
 @players.route("/player")
 def player():
     player = Player.query.first()
-    return player
+    return player.name
