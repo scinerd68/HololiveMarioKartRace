@@ -1,3 +1,5 @@
 venv/
 *.db
 databases_query
+__pycache__
+create_db.py
